@@ -82,8 +82,8 @@ export default function Home() {
           <Navbar />
           <Courousel />
           <div className={styles.sideImage}>
-            <div className={styles.sidepictureDiv}><Image className={styles.sidepicture} src={sidepicture1} /></div>
-            <div className={styles.sidepictureDiv}><Image className={styles.sidepicture} src={sidepicture2} /></div>
+            <div className={styles.sidepictureDiv}><Image className={styles.sidepicture} src={sidepicture1} alt='First Side Picture' /></div>
+            <div className={styles.sidepictureDiv}><Image className={styles.sidepicture} src={sidepicture2} alt='Second Side Picture' /></div>
           </div>
         </div>
       </div>
