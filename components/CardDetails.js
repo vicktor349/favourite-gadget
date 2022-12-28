@@ -8,7 +8,7 @@ const CardDetails = ({ img, category, name }) => {
     return (
         <Card shadow="sm" p="lg" radius="md" withBorder className={styles.card}>
             <Card.Section>
-                <Image src={img} width={250} height={250} className={styles.images} />
+                <Image src={img} width={250} height={250} alt='image' className={styles.images} />
             </Card.Section>
             <IconHeart style={{ position: 'relative', float: 'right', marginTop: '0.625rem' }} />
             <Group position="apart" mt="md" mb="xs">
