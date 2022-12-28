@@ -19,12 +19,12 @@ const CourouselSlide = () => {
                 loop
                 align="start"
             >
-                <Carousel.Slide><Image src={earphone} /></Carousel.Slide>
-                <Carousel.Slide><Image src={laptop} /></Carousel.Slide>
-                <Carousel.Slide><Image src={phone} /></Carousel.Slide>
-                <Carousel.Slide><Image src={playstation} /></Carousel.Slide>
-                <Carousel.Slide><Image src={smartwatch} /></Carousel.Slide>
-                <Carousel.Slide><Image src={speaker} /></Carousel.Slide>
+                <Carousel.Slide><Image src={earphone} alt='Image of an Earphone' /></Carousel.Slide>
+                <Carousel.Slide><Image src={laptop} alt='Image of a Laptop ' /></Carousel.Slide>
+                <Carousel.Slide><Image src={phone} alt='Image of a Phone' /></Carousel.Slide>
+                <Carousel.Slide><Image src={playstation} alt='Image of a playstation' /></Carousel.Slide>
+                <Carousel.Slide><Image src={smartwatch} alt='Image of a smartwatch' /></Carousel.Slide>
+                <Carousel.Slide><Image src={speaker} alt='Image of a speaker' /></Carousel.Slide>
             </Carousel>
         </div>
     )
