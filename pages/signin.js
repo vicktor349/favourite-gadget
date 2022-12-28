@@ -14,7 +14,7 @@ import { FcGoogle } from 'react-icons/fc'
 import { GrFacebook } from 'react-icons/gr'
 import styles from '../styles/signin.module.css'
 
-const signin = () => {
+const Signin = () => {
     const [authMode, setAuthMode] = useState('signup')
     const changeAuthMode = () => {
         setAuthMode(authMode === "signup" ? "signin" : "signup")
@@ -121,4 +121,4 @@ const signin = () => {
         </>
     )
 }
-export default signin
+export default Signin
