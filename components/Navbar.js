@@ -29,7 +29,7 @@ const Navbar = () => {
             <Divider className={styles.divider} my="xs" />
             <div className={styles.productLinks}>
                 <p className={styles.productLink}>Home</p>
-                <p className={styles.productLink}>Today's Deal</p>
+                <p className={styles.productLink}>Today&apos;s Deal</p>
                 <p className={styles.productLink}>Trending Products</p>
                 <p className={styles.productLink}>Special Offers</p>
             </div>
