@@ -1,0 +1,30 @@
+.body {
+    margin-top: 4%;
+    z-index: 999;
+}
+
+.rightSectionNavbar {
+    display: grid;
+    grid-template-columns: 85% 5% 5% 5%;
+    grid-gap: 0.4rem;
+    text-align: center;
+
+}
+
+.account {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.signin,
+.total {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #000;
+}
+
+.divider {
+    position: absolute;
+    margin-left: -69px;
+    width: 100%;
+}

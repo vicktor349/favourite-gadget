@@ -1,0 +1,61 @@
+/* OVERALL BODY */
+.body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+/* LEFT SECTION */
+.categories {
+    background-color: rgba(209, 209, 209, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cat {
+    background-color: rgba(245, 0, 0, 0.83);
+    color: #fff;
+    padding: 0.7rem;
+}
+
+.burger {
+    vertical-align: middle;
+}
+
+.category {
+    padding: 0.625rem;
+}
+
+.navLinkDiv {
+    padding: 1rem;
+}
+
+.sideImage {
+    position: relative;
+    float: right;
+    margin-top: -12.5rem;
+}
+
+/* RIGHT SECTION */
+
+.sidepictureDiv {
+    max-width: 14.125rem;
+    max-height: 14.125rem;
+    margin-bottom: 0.625rem;
+}
+
+.courouselSlide,
+.products {
+    width: 103.7%;
+}
+
+.bestSelling {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: lighter;
+    padding: 1.5rem;
+}

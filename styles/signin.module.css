@@ -1,0 +1,15 @@
+.paper {
+    margin-top: 3%;
+    width: 50%;
+}
+
+.google,
+.facebook {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.GrFacebook,
+.FcGoogle {
+    vertical-align: -2px;
+}

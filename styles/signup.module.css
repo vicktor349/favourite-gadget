@@ -1,0 +1,50 @@
+.body {
+    margin-top: 2%;
+}
+
+.loginContent {
+    margin-bottom: 2%;
+}
+
+.loginForm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form {
+    margin-top: 2%;
+}
+
+.googleAuth,
+.facebookAuth {
+    border: 1px solid #ced4da;
+    padding: 8px 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.bottomDivider {
+    margin: 5% 0 5% 0;
+}
+
+.loginButton {
+    padding: 0 50px;
+}
+
+.login {
+    position: relative;
+    float: right;
+    color: #000;
+    text-decoration: none;
+}
+
+.googleIcon,
+.facebookIcon {
+    font-size: 30px;
+}
+
+.loginWithGoogle,
+.loginWithFacebook {
+    vertical-align: 10px;
+    margin-left: 0.625rem;
+}

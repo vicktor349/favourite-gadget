@@ -1,0 +1,24 @@
+.footer {
+    margin-top: 2rem;
+}
+
+.footerContents {
+    display: grid;
+    grid-template-columns: 31.6% 2.5% 31.6% 2.5% 31.6%;
+    margin-top: 2rem;
+}
+
+.h3,
+.p {
+    padding: 0.7rem;
+}
+
+.subscribeDiv {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
