@@ -22,10 +22,10 @@ const Courousel = () => {
                 }}
                 loop
             >
-                <Carousel.Slide><Image src={slider1} /></Carousel.Slide>
-                <Carousel.Slide><Image src={slider2} /></Carousel.Slide>
-                <Carousel.Slide><Image src={slider3} /></Carousel.Slide>
-                <Carousel.Slide><Image src={slider4} /></Carousel.Slide>
+                <Carousel.Slide><Image src={slider1} alt='Image' /></Carousel.Slide>
+                <Carousel.Slide><Image src={slider2} alt='Image' /></Carousel.Slide>
+                <Carousel.Slide><Image src={slider3} alt='Image' /></Carousel.Slide>
+                <Carousel.Slide><Image src={slider4} alt='Image' /></Carousel.Slide>
             </Carousel>
         </div>
     )
