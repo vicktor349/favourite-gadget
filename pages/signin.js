@@ -112,7 +112,7 @@ const Signin = () => {
                             onClick={changeAuthMode}
                             size="xs"
                         >
-                            Don't have an account? Register
+                            Don&apos;t have an account? Register
                         </Anchor>
                         <Button type="submit">Sign In</Button>
                     </Group>
