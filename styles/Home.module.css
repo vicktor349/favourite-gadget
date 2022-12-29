@@ -75,3 +75,23 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1096px) {
+
+    .categories,
+    .logo {
+        display: none;
+    }
+
+    .body {
+        display: block;
+    }
+
+    .sideImage {
+        display: block;
+    }
+
+    .products {
+        margin-top: 10rem;
+    }
+}

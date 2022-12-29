@@ -8,3 +8,9 @@
         width: 50rem;
     }
 }
+
+@media screen and (max-width: 1096px) {
+    .courouselBody {
+        width: 43rem;
+    }
+}
