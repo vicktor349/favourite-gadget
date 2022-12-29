@@ -2,3 +2,9 @@
     width: 42.5rem;
     height: 12.5rem;
 }
+
+@media screen and (max-width: 1250px) {
+    .courouselBody {
+        width: 50rem;
+    }
+}

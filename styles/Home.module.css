@@ -59,3 +59,19 @@
     font-weight: lighter;
     padding: 1.5rem;
 }
+
+@media screen and (max-width: 1250px) {
+    .sideImage {
+        display: none;
+    }
+
+    .courouselSlide {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .courouselSlide {
+        display: none;
+    }
+}
