@@ -95,3 +95,9 @@
         margin-top: 10rem;
     }
 }
+
+@media screen and (max-width:965px) {
+    .sideImage {
+        display: none;
+    }
+}
